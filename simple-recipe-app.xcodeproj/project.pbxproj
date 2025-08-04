@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8A20A0132E413ACC00E01805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A209FFD2E413ACB00E01805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A20A0042E413ACB00E01805;
+			remoteInfo = "simple-recipe-app";
+		};
+		8A20A01D2E413ACC00E01805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A209FFD2E413ACB00E01805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A20A0042E413ACB00E01805;
+			remoteInfo = "simple-recipe-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A20A0052E413ACB00E01805 /* simple-recipe-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-recipe-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A20A0122E413ACC00E01805 /* simple-recipe-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-recipe-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A20A01C2E413ACC00E01805 /* simple-recipe-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-recipe-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8A20A0072E413ACB00E01805 /* simple-recipe-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "simple-recipe-app";
+			sourceTree = "<group>";
+		};
+		8A20A0152E413ACC00E01805 /* simple-recipe-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "simple-recipe-appTests";
+			sourceTree = "<group>";
+		};
+		8A20A01F2E413ACC00E01805 /* simple-recipe-appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "simple-recipe-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A20A0022E413ACB00E01805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A20A00F2E413ACC00E01805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A20A0192E413ACC00E01805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A209FFC2E413ACB00E01805 = {
+			isa = PBXGroup;
+			children = (
+				8A20A0072E413ACB00E01805 /* simple-recipe-app */,
+				8A20A0152E413ACC00E01805 /* simple-recipe-appTests */,
+				8A20A01F2E413ACC00E01805 /* simple-recipe-appUITests */,
+				8A20A0062E413ACB00E01805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A20A0062E413ACB00E01805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A20A0052E413ACB00E01805 /* simple-recipe-app.app */,
+				8A20A0122E413ACC00E01805 /* simple-recipe-appTests.xctest */,
+				8A20A01C2E413ACC00E01805 /* simple-recipe-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A20A0042E413ACB00E01805 /* simple-recipe-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A20A0262E413ACC00E01805 /* Build configuration list for PBXNativeTarget "simple-recipe-app" */;
+			buildPhases = (
+				8A20A0012E413ACB00E01805 /* Sources */,
+				8A20A0022E413ACB00E01805 /* Frameworks */,
+				8A20A0032E413ACB00E01805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8A20A0072E413ACB00E01805 /* simple-recipe-app */,
+			);
+			name = "simple-recipe-app";
+			packageProductDependencies = (
+			);
+			productName = "simple-recipe-app";
+			productReference = 8A20A0052E413ACB00E01805 /* simple-recipe-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A20A0112E413ACC00E01805 /* simple-recipe-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A20A0292E413ACC00E01805 /* Build configuration list for PBXNativeTarget "simple-recipe-appTests" */;
+			buildPhases = (
+				8A20A00E2E413ACC00E01805 /* Sources */,
+				8A20A00F2E413ACC00E01805 /* Frameworks */,
+				8A20A0102E413ACC00E01805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A20A0142E413ACC00E01805 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8A20A0152E413ACC00E01805 /* simple-recipe-appTests */,
+			);
+			name = "simple-recipe-appTests";
+			packageProductDependencies = (
+			);
+			productName = "simple-recipe-appTests";
+			productReference = 8A20A0122E413ACC00E01805 /* simple-recipe-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A20A01B2E413ACC00E01805 /* simple-recipe-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A20A02C2E413ACC00E01805 /* Build configuration list for PBXNativeTarget "simple-recipe-appUITests" */;
+			buildPhases = (
+				8A20A0182E413ACC00E01805 /* Sources */,
+				8A20A0192E413ACC00E01805 /* Frameworks */,
+				8A20A01A2E413ACC00E01805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A20A01E2E413ACC00E01805 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8A20A01F2E413ACC00E01805 /* simple-recipe-appUITests */,
+			);
+			name = "simple-recipe-appUITests";
+			packageProductDependencies = (
+			);
+			productName = "simple-recipe-appUITests";
+			productReference = 8A20A01C2E413ACC00E01805 /* simple-recipe-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A209FFD2E413ACB00E01805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8A20A0042E413ACB00E01805 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8A20A0112E413ACC00E01805 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8A20A0042E413ACB00E01805;
+					};
+					8A20A01B2E413ACC00E01805 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8A20A0042E413ACB00E01805;
+					};
+				};
+			};
+			buildConfigurationList = 8A20A0002E413ACB00E01805 /* Build configuration list for PBXProject "simple-recipe-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A209FFC2E413ACB00E01805;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8A20A0062E413ACB00E01805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A20A0042E413ACB00E01805 /* simple-recipe-app */,
+				8A20A0112E413ACC00E01805 /* simple-recipe-appTests */,
+				8A20A01B2E413ACC00E01805 /* simple-recipe-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A20A0032E413ACB00E01805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A20A0102E413ACC00E01805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A20A01A2E413ACC00E01805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A20A0012E413ACB00E01805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A20A00E2E413ACC00E01805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A20A0182E413ACC00E01805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A20A0142E413ACC00E01805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A20A0042E413ACB00E01805 /* simple-recipe-app */;
+			targetProxy = 8A20A0132E413ACC00E01805 /* PBXContainerItemProxy */;
+		};
+		8A20A01E2E413ACC00E01805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A20A0042E413ACB00E01805 /* simple-recipe-app */;
+			targetProxy = 8A20A01D2E413ACC00E01805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A20A0242E413ACC00E01805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A20A0252E413ACC00E01805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A20A0272E413ACC00E01805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vr.simple-recipe-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A20A0282E413ACC00E01805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vr.simple-recipe-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A20A02A2E413ACC00E01805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vr.simple-recipe-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-recipe-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/simple-recipe-app";
+			};
+			name = Debug;
+		};
+		8A20A02B2E413ACC00E01805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vr.simple-recipe-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-recipe-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/simple-recipe-app";
+			};
+			name = Release;
+		};
+		8A20A02D2E413ACC00E01805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vr.simple-recipe-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "simple-recipe-app";
+			};
+			name = Debug;
+		};
+		8A20A02E2E413ACC00E01805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vr.simple-recipe-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "simple-recipe-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A20A0002E413ACB00E01805 /* Build configuration list for PBXProject "simple-recipe-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A20A0242E413ACC00E01805 /* Debug */,
+				8A20A0252E413ACC00E01805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A20A0262E413ACC00E01805 /* Build configuration list for PBXNativeTarget "simple-recipe-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A20A0272E413ACC00E01805 /* Debug */,
+				8A20A0282E413ACC00E01805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A20A0292E413ACC00E01805 /* Build configuration list for PBXNativeTarget "simple-recipe-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A20A02A2E413ACC00E01805 /* Debug */,
+				8A20A02B2E413ACC00E01805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A20A02C2E413ACC00E01805 /* Build configuration list for PBXNativeTarget "simple-recipe-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A20A02D2E413ACC00E01805 /* Debug */,
+				8A20A02E2E413ACC00E01805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A209FFD2E413ACB00E01805 /* Project object */;
+}

@@ -37,7 +37,7 @@ struct RecipeDetailView: View {
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
-                        .padding([.leading, .bottom], 10)
+                        .padding(EdgeInsets(top: 0, leading: 15, bottom: 2, trailing: 0))
                 }
                 
                 HStack {

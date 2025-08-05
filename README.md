@@ -48,4 +48,4 @@ Planned features and improvements for the Simple Recipe App include:
 * **Dark Mode**: Refine UI to adapt smoothly in dark mode.
 * **Accessibility**: Improve screen reader support and dynamic text sizing.
 * **Sharing**: Allow users to share recipes via social media or messaging apps.
-* **First-Time Tutorial**:Provide a quick walkthrough for first-time users.
+* **First-Time Tutorial**: Provide a quick walkthrough for first-time users.

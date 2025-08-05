@@ -41,11 +41,11 @@ A simple iOS recipe application built with Swift and SwiftUI, allowing users to 
 ## 🔮 **Future Additions**
 
 Planned features and improvements for the Simple Recipe App include:
-	*	**Search Functionality**: Allow users to search for recipes by name or ingredient.
-	*	**Favorites**: Let users mark recipes as favorites and view them in a separate tab.
-	* **Recipe Categories**: Add filtering by category (e.g., Vegetarian, Desserts, Quick Meals).
-	*	**Custom Recipes**: Enable users to add their own recipes and save them locally.
-	*	**Dark Mode**: Refine UI to adapt smoothly in dark mode.
-	*	**Accessibility**: Improve screen reader support and dynamic text sizing.
-	*	**Sharing**: Allow users to share recipes via social media or messaging apps.
-	*	**First-Time Tutorial**:Provide a quick walkthrough for first-time users.
+* **Search Functionality**: Allow users to search for recipes by name or ingredient.
+* **Favorites**: Let users mark recipes as favorites and view them in a separate tab.
+* **Recipe Categories**: Add filtering by category (e.g., Vegetarian, Desserts, Quick Meals).
+* **Custom Recipes**: Enable users to add their own recipes and save them locally.
+* **Dark Mode**: Refine UI to adapt smoothly in dark mode.
+* **Accessibility**: Improve screen reader support and dynamic text sizing.
+* **Sharing**: Allow users to share recipes via social media or messaging apps.
+* **First-Time Tutorial**:Provide a quick walkthrough for first-time users.

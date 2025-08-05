@@ -6,6 +6,10 @@ A simple iOS recipe application built with Swift and SwiftUI, allowing users to 
 
 ## 📸 **App Preview**
 
+| Menu Screen | Recipe Screen |
+| :-------------------------:|:-------------------------: |
+| <img width="306" height="604" alt="menu-screen" src="https://github.com/user-attachments/assets/356229b0-5949-4122-b6d3-664cb2e22237" /> | <img width="306" height="604" alt="recipe-screen" src="https://github.com/user-attachments/assets/d5fbb9af-ef77-4640-bb17-a0587889860d" />
+
 ## 🏗 **Project Structure** 
 
 * **Recipe.swift**: Model representing a recipe.
@@ -40,7 +44,7 @@ A simple iOS recipe application built with Swift and SwiftUI, allowing users to 
 
 ## 🔮 **Future Additions**
 
-Planned features and improvements for the Simple Recipe App include:
+Planned features and improvements for this recipe app include:
 * **Search Functionality**: Allow users to search for recipes by name or ingredient.
 * **Favorites**: Let users mark recipes as favorites and view them in a separate tab.
 * **Recipe Categories**: Add filtering by category (e.g., Vegetarian, Desserts, Quick Meals).
